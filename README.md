@@ -32,5 +32,4 @@ A simple class for making calls to AXE's RPC API using PHP.
 
 ## Contribution Info
 
-This is forked from EasyBitcoin-PHP by Andrew LeCody (https://github.com/aceat64/EasyBitcoin-PHP).
-Original code is licensed under MIT.
+This is forked from EasyBitcoin-PHP by Andrew LeCody (https://github.com/aceat64/EasyBitcoin-PHP). Original code is licensed under MIT.
