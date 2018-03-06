@@ -41,7 +41,7 @@ $axe = new \axerunners\easyAXE('username','password');
 $axe = new \axerunners\easyAXE('username','password','host','port');
 // Defaults are:
 //	host = localhost
-//	port = 9998
+//	port = 9337
 //	proto = http
 
 // If you wish to make an SSL connection you can set an optional CA certificate or leave blank
@@ -94,7 +94,7 @@ class easyAXE {
      * @param string $proto
      * @param string $url
      */
-    function __construct($username, $password, $host = 'localhost', $port = 9998, $url = null) {
+    function __construct($username, $password, $host = 'localhost', $port = 9337, $url = null) {
         $this->username      = $username;
         $this->password      = $password;
         $this->host          = $host;
