@@ -9,9 +9,9 @@ A simple class for making calls to AXE's RPC API using PHP.
 
 	`$axe = new \axerunners\easyAXE('username','password');`
 
-	Optionally, you can specify a host, port. Default is HTTP on localhost port 9998.
+	Optionally, you can specify a host, port. Default is HTTP on localhost port 9337.
 
-	`$axe = new \axerunners\easyAXE('username','password','localhost','9998');`
+	`$axe = new \axerunners\easyAXE('username','password','localhost','9337');`
 
 	If you wish to make an SSL connection you can set an optional CA certificate or leave blank
 	`$axe->setSSL('/full/path/to/mycertificate.cert');`
